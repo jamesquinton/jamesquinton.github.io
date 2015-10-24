@@ -5,21 +5,43 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>
         <meta name="description" content="">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-weight: 400;
+                font-family: 'Raleway', sans-serif;
+                color: #666;
+                position: relative;
+                background: #333;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div style="float: left; width: 100px; height: 100%; background: #fff; color: #333">
+            <p>
+                James Quinton<br>
+                <i class="fa fa-info"></i><br>
+                <i class="fa fa-envelope-o"></i><br>
+                <a style="color: #fff;" target="_blank" href="http://fi.linkedin.com/in/jamesquinton"><i class="fa fa-linkedin"></i></a>
+            </p>
+        </div>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
-        <div class="ct-chart ct-perfect-fourth"></div>
-
+        <div style="float: left; width: 80%; height: 100%;">
+            <canvas id="myChart" style="height: 70%; width: 100%; margin-top: 10%;"></canvas>
+        </div>
         <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="js/Chart.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
